@@ -42,9 +42,8 @@ export function WisdomOrb3D() {
         <bufferGeometry>
           <bufferAttribute
             attach="attributes-position"
+            args={[particles, 3]}
             count={particles.length / 3}
-            array={particles}
-            itemSize={3}
           />
         </bufferGeometry>
         <pointsMaterial
@@ -53,8 +52,6 @@ export function WisdomOrb3D() {
           sizeAttenuation={true}
           transparent={true}
           opacity={1}
-          emissive="#2df872"
-          emissiveIntensity={2}
         />
       </points>
 

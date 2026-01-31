@@ -5,8 +5,8 @@ import menuBg from '../../../assets/wakanda-forever-master.dogstudio-dev.co/zero
 
 type LoaderProps = {
   isActive: boolean
-  progressRef: RefObject<HTMLDivElement>
-  progressTextRef: RefObject<HTMLDivElement>
+  progressRef: RefObject<HTMLDivElement | null>
+  progressTextRef: RefObject<HTMLDivElement | null>
 }
 
 export const Loader = forwardRef<HTMLDivElement, LoaderProps>(function Loader(

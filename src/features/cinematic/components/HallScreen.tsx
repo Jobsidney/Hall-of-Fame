@@ -20,20 +20,6 @@ const SpriteLogoWhite = () => (
   </svg>
 )
 
-const WisdomOrbIcon = () => (
-  <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="30" cy="30" r="28" stroke="url(#wisdom-gradient)" strokeWidth="2" fill="none" />
-    <circle cx="30" cy="30" r="20" stroke="url(#wisdom-gradient)" strokeWidth="1" fill="none" opacity="0.5" />
-    <circle cx="30" cy="30" r="12" fill="url(#wisdom-gradient)" opacity="0.3" />
-    <defs>
-      <linearGradient id="wisdom-gradient" x1="0" y1="0" x2="60" y2="60">
-        <stop offset="0%" stopColor="#2df872" />
-        <stop offset="100%" stopColor="#00964d" />
-      </linearGradient>
-    </defs>
-  </svg>
-)
-
 const NavArrowLeft = () => (
   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M15 18L9 12L15 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
