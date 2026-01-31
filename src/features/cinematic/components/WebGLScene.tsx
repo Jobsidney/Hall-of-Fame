@@ -22,7 +22,7 @@ interface SceneConfig {
 const SCENE_CONFIGS: Record<SceneType, SceneConfig> = {
   entrance: {
     hdri: entranceHDR,
-    cameraPosition: [-40, 8, 0],
+    cameraPosition: [-35, 8, 0],
     cameraRotation: [0, -Math.PI / 2, 0],
     panIntensityX: 0.02,
     panIntensityY: 0.04,
