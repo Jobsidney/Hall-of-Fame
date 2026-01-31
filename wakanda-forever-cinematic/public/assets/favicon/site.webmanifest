@@ -1,0 +1,14 @@
+{
+    "name": "Hall of Zero Limits",
+    "short_name": "Zero Limits",
+    "icons": [
+        {
+            "src": "/assets/favicon/favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#102416",
+    "background_color": "#102416",
+    "display": "standalone"
+}
